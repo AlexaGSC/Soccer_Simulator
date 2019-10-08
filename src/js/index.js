@@ -7,8 +7,8 @@ const playersB = ['Barcelona', 'Madrid', 'Valencia', 'Getafe'];
 
 function puntuacion() {
 
-  const A = Math.round(Math.random() * playersA.length);
-  const B = Math.round(Math.random() * playersB.length);
+  const A = Math.floor(Math.random() * playersA.length);
+  const B = Math.floor(Math.random() * playersB.length);
   const golesA = Math.round(Math.random() * 10);
   const golesB = Math.round(Math.random() * 10);
   const playerA = playersA[A];
