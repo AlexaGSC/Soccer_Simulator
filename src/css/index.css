@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+}
+
+.board {
+    height: 150px ;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid peachpuff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.score {
+height: 150px;
+width: 500px;
+margin: auto;
+background: lightgreen;
+align-self: center;
+align-items: center;
+
+
+}
+
+.button {
+    align-self: center;
+    margin: 10px;
+    
+    
+}
