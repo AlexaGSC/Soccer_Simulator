@@ -25,6 +25,13 @@ h1 {
 
 }
 
+.content {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 45px;
+  color: white;
+}
+
 .button {
     align-self: center;
     margin: 10px;
